@@ -1,0 +1,27 @@
+{
+  "name": "SoccerFixturesWebScraper",
+  "version": "1.0.0",
+  "description": "Node.js package - Web page scraper for soccer fixtures for all leagues in a given season specified as year. The results are saved in Csv file format and uploaded to a MS-SQL Server database.",
+  "main": "index.js",
+  "bin": {
+    "SoccerFixturesWebScraper": "index.js"
+  },
+  "dependencies": {
+    "cheerio": "~0.17.0",
+    "request": "^2.40.0",
+    "path": "~0.4.9",
+	"mssql": "~1.1.1",
+    "async": "~0.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "soccer",
+    "fixtures",
+    "scraping"
+  ],
+  "author": "Sergiy A.",
+  "license": "ISC"
+}
