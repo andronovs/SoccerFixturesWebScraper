@@ -1,7 +1,7 @@
 SoccerFixturesWebScraper
 =====================
 
-This simple Node.js package demonstrates how to use Node.js for Web scraping to pull down the list of fixtures for a predefined list of soccer leagues.
+This simple Node.js package demonstrates how to use Node.js for Web scraping to pull down the list of fixtures for a predefined list of soccer leagues from Fifa.com.
 Node.js packages used:
 
 * async - higher-order functions and common patterns for asynchronous code (https://www.npmjs.org/package/async);
